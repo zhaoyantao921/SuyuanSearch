@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto">
+        <WebView android:id="@+id/web_view"
+            android:layout_weight="9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+        </WebView>
+    <com.shou.zhao.suyuansearch.info.hoang8f.widget.FButton
+        android:layout_weight="1"
+        android:id="@+id/qr_picture"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="截屏"
+        fbutton:cornerRadius="5dp"
+        fbutton:shadowColor="#1f4751"
+        fbutton:shadowHeight="1dp" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
